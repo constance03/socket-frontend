@@ -1,0 +1,81 @@
+.App {
+ font-family: Arial, sans-serif;
+ background-color: #ffebd9;
+ color: #ff6b00;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.App-header {
+ padding: 20px;
+ border-radius: 10px;
+ width: 100%;
+ max-width: 500px;
+ margin-bottom: 20px;
+}
+
+.form {
+ display: flex;
+ flex-direction: column;
+}
+
+.input-group {
+ margin-bottom: 15px;
+}
+
+input[type="text"] {
+ padding: 10px;
+ border: 1px solid #ff6b00;
+ border-radius: 5px;
+ width: 100%;
+}
+
+button {
+ background-color: #ff6b00;
+ color: white;
+ border: none;
+ padding: 10px 15px;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.3s;
+ align-self: flex-start;
+}
+
+button:hover {
+ background-color: #e55a00;
+}
+
+.dashboard {
+ width: 100%;
+ max-width: 800px;
+}
+
+.department {
+ background-color: #ffe4e1;
+ padding: 20px;
+ border-radius: 10px;
+}
+
+.service-list {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+}
+
+.service-card {
+ background-color: white;
+ padding: 15px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ width: 100%;
+ max-width: 250px;
+}
+
+.accepted-service {
+ background-color: #e5f7e9;
+ /* Um verde claro para indicar aceitação */
+ text-decoration: line-through;
+ /* Uma linha através do texto para indicar que foi aceito */
+}
